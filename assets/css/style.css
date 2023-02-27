@@ -5,15 +5,18 @@
     margin: 0;
 }
 
+/* sets body as white background color */
 body {
     background-color: #d9dcd6;
 }
 
+/* removes underline from links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets paragraph text to 16 pixel font size */
 p {
     font-size: 16px;
 }
@@ -27,15 +30,18 @@ p {
     color: #ffffff;
 }
 
+/* sets main header size */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* sets "seo" in "Horiseon" to a slightly darker white */
 h1 .seo {
     color: #d9dcd6;
 }
 
+/* Header nav bar CSS*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -44,6 +50,7 @@ h1 .seo {
     font-size: 20px;
 }
 
+/* Nav bar list CSS */
 .header nav ol li {
     display: inline-block;
     margin-left: 25px;
@@ -60,6 +67,8 @@ h1 .seo {
     alt: "coworkers conversing";
 }
 
+
+/* forces an image left or right in the html flow */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,7 +80,6 @@ h1 .seo {
 }
 
 /* Main content CSS */
-
 .content {
     width: 75%;
     display: inline-block;
@@ -96,8 +104,7 @@ h1 .seo {
     font-size: 36px;
 }
 
-/* Aside CSS */
-
+/* Side Bar CSS*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -126,7 +133,6 @@ h1 .seo {
 }
 
 /* Footer CSS */
-
 .footer {
     padding: 30px;
     clear: both;
